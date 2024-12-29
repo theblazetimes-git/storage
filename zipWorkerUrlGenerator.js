@@ -4,7 +4,7 @@ function generateDownloadUrl() {
         // Base64 encode the file name
         const encodedFileName = btoa(fileName);
         // Create the download URL
-        const downloadUrl = `https://storage.theblazetimes.news/zipWorker.html?file=${encodedFileName}`;
+        const downloadUrl = `https://storage.theblazetimes.in/zipWorker.html?file=${encodedFileName}`;
         
         // Set the generated URL to the input field
         document.getElementById('downloadUrlInput').value = downloadUrl;
